@@ -100,12 +100,6 @@ function PaymentOption() {
 
 This project includes a .NET build configuration for potential future development needs.
 
-### Build
-
-```bash
-dotnet build
-```
-
 ## 📄 License
 
 Please ensure you have the proper rights to use these logos in your projects. Bank logos are typically trademarked and should be used in accordance with each bank's brand guidelines.
