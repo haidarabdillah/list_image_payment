@@ -22,6 +22,9 @@ This repository contains high-quality SVG icons for various Indonesian banks and
 - **BTPN**
 - **HSBC Indonesia**
 - **Citibank**
+- **OCBC NISP**
+- **Maybank Indonesia**
+- **Bank Mega Tbk**
 
 ### Syariah Banks
 
@@ -31,17 +34,35 @@ This repository contains high-quality SVG icons for various Indonesian banks and
 - **Mandiri Syariah**
 - **BSI** (Bank Syariah Indonesia)
 - **BTPN Syariah**
+- **Bank Mega Syariah**
+- **Bank Muamalat**
 
-### Digital Payment
+### Regional Development Banks
+
+- **Bank DKI** (Jakarta)
+- **Bank DIY** (Yogyakarta)
+- **Bank Jateng** (Central Java)
+- **Bank Jatim** (East Java)
+- **Bank BJB** (West Java)
+
+### Digital Banks & Payment Methods
 
 - **Jenius** (BTPN Digital)
+- **Jago** (Bank Jago)
+- **SeaBank** (Sea Limited)
+- **GoPay** (Gojek)
+- **Allo Bank**
 
 ## 📁 File Structure
 
 ```text
 sources/
+├── allo.png
 ├── bca.svg
 ├── bca-syariah.svg
+├── bca_syariah.png
+├── bcad.png
+├── bjb.png
 ├── bni.svg
 ├── bni-syariah.svg
 ├── bri.svg
@@ -53,12 +74,24 @@ sources/
 ├── cimb.svg
 ├── citibank.svg
 ├── danamon.svg
+├── diy.png
+├── dki.png
+├── gopay.png
 ├── hsbc.svg
+├── jago.png
+├── jateng.png
+├── jatim.png
 ├── jenius.svg
 ├── mandiri.svg
 ├── mandiri-syariah.svg
+├── maybank.png
+├── mega_syariah.png
+├── mega_tbk.png
+├── muamalat.png
+├── ocbc.svg
 ├── panin.svg
-└── permata.svg
+├── permata.svg
+└── seabank.png
 ```
 
 ## 🚀 Usage
@@ -66,7 +99,13 @@ sources/
 ### Direct File Access
 
 ```html
+<!-- SVG files -->
 <img src="sources/bca.svg" alt="BCA" width="100" height="50">
+<img src="sources/mandiri.svg" alt="Mandiri" width="100" height="50">
+
+<!-- PNG files -->
+<img src="sources/gopay.png" alt="GoPay" width="100" height="50">
+<img src="sources/jago.png" alt="Jago" width="100" height="50">
 ```
 
 ### CSS Background
@@ -91,8 +130,8 @@ function PaymentOption() {
 
 ## 🎨 Icon Specifications
 
-- **Format**: SVG (Scalable Vector Graphics)
-- **Quality**: Vector-based, infinitely scalable
+- **Format**: SVG (Scalable Vector Graphics) and PNG
+- **Quality**: Vector-based SVG files for infinite scalability, PNG for raster images
 - **Optimization**: Optimized for web usage
 - **Compatibility**: Works across all modern browsers
 
@@ -107,8 +146,8 @@ Please ensure you have the proper rights to use these logos in your projects. Ba
 ## 🤝 Contributing
 
 1. Fork this repository
-2. Add new payment method icons in SVG format
-3. Follow the naming convention: `bank-name.svg` or `bank-name-syariah.svg`
+2. Add new payment method icons in SVG or PNG format
+3. Follow the naming convention: `bank-name.svg`, `bank-name.png`, or `bank-name-syariah.svg`
 4. Ensure icons are optimized and maintain consistent quality
 5. Submit a pull request
 
